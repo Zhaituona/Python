@@ -52,3 +52,19 @@ print(x[0])
 print(x[1])
 print(x[0][1])
 print(x[1][2])
+
+a= 120
+b= 100
+if(a >b):
+    print(a)
+else:
+    print(b)
+
+str1 ="selenium"
+str2 = "SELENIUM"
+if(str1 == str2):
+   print("equal")
+else:
+    print(" not equal")
+
+print(len(str1))
