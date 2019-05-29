@@ -21,6 +21,14 @@ for l in range(len(str)):
         print(" I found python")
         continue
 
+print("************")
+
+num =[12,45,7,8,90,100]
+for n in range(len(num)):
+    print(num[n])
+    if(num[n]== 90):
+        break # it will break the loop in the 90
+
 print("***********")
 language = ["English","France","Germany","Uyghur","Spanish"]
 flag = False
